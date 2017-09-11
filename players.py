@@ -13,6 +13,7 @@ print('printing last 3 names')
 print(players[-3:])
 print('\n')
 
+print('Here are the first 3  players in the team')
 for player in players[:3]:
 	print(player.title())
 	
