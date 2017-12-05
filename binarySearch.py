@@ -1,3 +1,4 @@
+# function to do binary search 
 def binarySearch(alist,item):
 	if len(alist) == 0:
 		print('item not found')
