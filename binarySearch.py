@@ -7,7 +7,7 @@ def binarySearch(alist,item):
 		print(len(alist))
 		print('lenght of list')
 		print(alist[midpoint])
-		print('midpoint value')
+		print('midpoint test value')
 		if alist[midpoint] == item:
 			return True
 		else:
