@@ -3,7 +3,7 @@ import requests
 import json
 main_api = 'http://maps.googleapis.com/maps/api/geocode/json?'
 
-
+#address can be zipcode or airport code
 address = 'lhr'
 url = main_api + urllib.parse.urlencode({'address':address})
 
