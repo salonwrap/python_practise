@@ -1,0 +1,30 @@
+
+Below are details for the running the tests. I was not able to run on mobile or emulator as I was having problems with appium library in my automation environment. Test is running on Firefox web broweser
+
+1.  Install python. Version used here is Python 3.7.3 
+
+2.  Install robotframework
+pip show robotframework --version
+Name: robotframework
+Version: 3.2.1
+
+3.   Install robot selenimum library
+
+Name: robotframework-seleniumlibrary
+Version: 4.4.
+
+4.  Install robot selenium2library (this I think is not needed, but I had it on my system and should not be an issue if it's not installed. Based on documentation selenium library overrides selenium2library)
+
+Name: robotframework-selenium2library
+Version: 3.0.0
+
+
+Above install was done on mac and using pip.
+
+
+5.  Install Pycharm CE. Version installed and tested with is 2020.1.2
+
+6.  Enable few setting in Pycharm to use robot and selenium. In Settings or Prefences click on Project Interpreter. There will be + sign. Here enable robotframework, robotframework-seleniumlibrary
+
+
+7.  Drop GrantTestSuite.robot in the testcase folder. 
